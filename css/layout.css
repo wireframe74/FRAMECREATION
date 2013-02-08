@@ -134,11 +134,16 @@ font-size:11px!important;
 }
 
 .gform_wrapper .gform_footer {
-
 clear:both;
 text-align:right!important;
-margin-top: -50px !important;
+margin-top: -95px !important;
+float: right;
+width: 200px;
+}
 
+#fancybox-content #gform_submit_button_1 {
+    font-size: 1.3em;
+    letter-spacing: normal;
 }
 
 .gform_wrapper .gfield #input_1_5 {
@@ -623,6 +628,14 @@ li div.file-upload-widget button {
     text-transform: uppercase;
     letter-spacing: 1px;
     vertical-align: top;
+}
+
+
+div#gforms_confirmation_message {
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    border: none;
 }
 
 
