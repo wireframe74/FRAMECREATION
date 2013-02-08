@@ -48,8 +48,6 @@ body div#footer, body.home #footer {
    ========================================================================== */
 
 
-
-
 #quote h3 {
 background-image: url(../images/cross.gif) top left no-repeat!Important;
 }
@@ -60,9 +58,6 @@ width: 95%;
 height: auto;
 background: #747084 url(../images/right-corner.gif) bottom right no-repeat;
 }
-
-
-
 
 
 .home #clients {
@@ -233,4 +228,20 @@ body.page-template-template-related-theory-php #caseStudiesNews {
 body.page-template-template-frame-creation-php article.internalContent,
 body.page-template-template-related-theory-php article.internalContent {
 	max-width: 100%;
+}
+
+/* ==========================================================================
+
+   FancyBox Forms
+
+   ========================================================================== */
+
+li div.file-upload-widget input[type="text"] {
+	width: 180px;
+	letter-spacing: normal;
+}
+
+li div.file-upload-widget button {
+	padding: 2px 10px 2px 5px;
+	letter-spacing: normal;
 }
