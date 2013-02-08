@@ -1,0 +1,189 @@
+/* ==========================================================================
+
+   Resolution: 320px
+
+   ========================================================================== */
+
+#header {border:none}
+#rightLinks {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #C7C6CE;
+	margin-top: 15px;
+}
+
+#rightLinks h3 {
+	float :left;
+}
+
+#rightLinks #search_link {float:left; width: 30%;}
+#rightLinks #contact_link {float: left; width: 30%;}
+#rightLinks #mailing_link {float: right;}
+
+#rightLinks h3 a {
+	margin-bottom: 0;
+}
+
+#rightLinks #searchform {
+	display: none;
+}
+
+
+#footer #logos li {
+	float: none;
+	margin-right: 0;
+}
+
+/* ==========================================================================
+
+   Home Page
+
+   ========================================================================== */
+
+
+#caseStudies {
+	float: none;
+	width: 100%;
+	border-bottom: 1px solid #C7C6CE;
+	margin-bottom: 15px;
+	margin-right: 0;
+}
+#caseStudiesSearch {
+	width: 100%;
+	float: none;
+}
+
+#quote h3 {
+width: 78%;
+}
+
+#tos {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+/* ==========================================================================
+
+   Three Column Layout (About / Workshop)
+
+   ========================================================================== */
+
+#internalContent.threeCol {
+	max-width: 100%;
+}
+
+.threeCol .column, .threeCol .column.last-col, .threeCol .column.big-col {
+	width: 100%;
+	margin-right: 0;
+	border-top: 1px solid #C7C6CE;
+	margin-top: 15px;
+	padding-top:15px;
+}
+
+/* ==========================================================================
+
+   Case Studies
+
+   ========================================================================== */
+
+ div.case-study-form button {
+ 	right: 0;
+ }
+
+ div.select-wrapper {
+ 	width: 60%;
+ }
+
+ .threeCol .case-studies-list .column {
+ 	width: 100%;
+ 	margin-right: 0;
+ }
+
+ body.page-template-template-case-studies-home-php .threeCol .column:first-child {
+ 	border-top : none;
+ 	margin-top: 0;
+ 	padding-top: 0;
+ }
+
+.study-pager > a, .study-pager > span {
+	display : none;
+}
+
+.study-pager .ajax-pager {
+ 	display: block;
+ }
+
+/* ==========================================================================
+
+   Latest News / Single Post
+
+   ========================================================================== */
+
+.blog-pager {
+	display: none;
+}
+
+.post-summary .post-thumb {
+	width: 25%;
+	float: left;
+	margin-right: 3%;
+}
+
+.post-summary .post-desc {
+	float: right;
+	width: 70%;
+}
+
+.landscape-thumb.post-summary .post-thumb {
+	width: 40%;
+}
+
+.landscape-thumb.post-summary .post-desc {
+	width: 55%;
+}
+
+.internalContent .post-summary .post-thumb img {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.internalContent .post-summary .post-desc h2 {
+	margin-top :0;
+}
+
+
+/* ==========================================================================
+
+   Frame Creation / Related Theory
+
+   ========================================================================== */
+
+#logoWrap img {
+	width: 100%;
+}
+
+/* ==========================================================================
+
+   FancyBox Forms
+
+   ========================================================================== */
+
+ #fancybox-content .gform_wrapper {
+	padding: 10px;
+}
+
+#input_1_5, #field_1_7, div.file-upload-widget {
+	display : none;
+}
+
+.gform_wrapper .gform_footer {
+	margin-top: -20px !important;
+}
+
+div.mailing_list_form {
+	padding: 10px;
+}
+
+div.mailing_list_form button {
+	margin-right: -10px;
+}
