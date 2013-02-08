@@ -680,4 +680,10 @@ div.mailing_list_form button {
     width: 289px;
 }
 
-.post-thumb {margin-top:13px}
+.post-thumb {
+    margin-top:13px;
+}
+
+.post-summary .post-desc h2 {
+    line-height: 15px;
+}
