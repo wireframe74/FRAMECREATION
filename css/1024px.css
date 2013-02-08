@@ -1,0 +1,152 @@
+/* ==========================================================================
+
+   Resolution: 1024px
+
+   ========================================================================== */
+
+#wrapper {
+	width: 820px;
+	margin: 0 auto 20px;
+}
+
+
+#mainNav {
+	width: 90px;
+	height: auto;
+}
+
+#footer {
+	width: 820px;
+	margin-top: 0;
+}
+
+#footerLinks {
+	float : left;
+	width: 300px;
+}
+
+
+
+/* ==========================================================================
+
+   Home Page
+
+   ========================================================================== */
+
+#quote {
+	width: 381px;
+	height: auto;
+
+}
+
+
+
+.home #clients {
+	width: 400px;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: 1px solid #C7C6CE;
+}
+
+.home #caseStudiesNews {
+margin-top: -214px;
+}
+.home #footerLinks {
+	width : 289px;
+	float:right;
+}
+
+.home #footer {
+margin: 0 auto;
+margin-top: 0!IMPORTANT;
+}
+
+#clients div.model-rollover {
+	left: 530px !important;
+}
+
+/* ==========================================================================
+
+   Three Column Layout (About / Workshop)
+
+   ========================================================================== */
+
+#internalContent.threeCol {
+	max-width: 720px;
+}
+
+.threeCol .column {
+	width: 200px;
+	margin: 0 10px 0 0;
+}
+
+.threeCol .column.big-col {
+	width: 290px;
+}
+
+div.person-list div.person {
+	margin-top: 10px;
+}
+
+#internalContent .person-list img {
+	margin-bottom: 0;
+}
+
+.person-desc {
+	float: none;
+	width: auto;
+}
+
+.page-template-template-workshop-php #footerLinks {
+	margin-left: 100px;
+}
+
+/* ==========================================================================
+
+   Case Studies
+
+   ========================================================================== */
+
+ div.case-study-form button {
+ 	right: 10%;
+ }
+
+ .threeCol .case-studies-list .column {
+ 	width: 31%;
+ 	margin-right: 2%;
+ 	margin-bottom: 10px;
+ }
+
+/* ==========================================================================
+
+   Latest News / Single Post
+
+   ========================================================================== */
+.internalContent, #internalContent {
+	max-width: 600px;
+}
+
+body.single-post .internalContent img.wp-post-image, #internalContent img.wp-post-image {
+	width: 100%;
+	height: auto;
+}
+
+#sideBar {
+	width: 110px;
+}
+
+/* ==========================================================================
+
+   Frame Creation / Related Theory
+
+   ========================================================================== */
+
+body.page-template-template-frame-creation-php #caseStudiesNews,
+body.page-template-template-related-theory-php #caseStudiesNews {
+	width: 200px;
+}
+
+body.page-template-template-frame-creation-php article.internalContent,
+body.page-template-template-related-theory-php article.internalContent {
+	max-width: 500px;
+}

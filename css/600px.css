@@ -1,0 +1,236 @@
+/* ==========================================================================
+
+   Resolution: 600px
+
+   ========================================================================== */
+
+.desktop {display: none;}
+.mobile {display: block;}
+
+#wrapper, #footer {
+	width:80%;
+	margin: 20px auto;
+}
+
+#rightLinks {
+	width: 100px;
+}
+
+#mainNav {
+	display:none;
+}
+
+#mainNavigationMenu {
+display: block;
+width: 99%;
+margin-bottom: 15px;
+}
+
+
+body div#footerLinks, .home #footerLinks {
+	width : 100%;	
+}
+
+body div#footer, body.home #footer {
+	margin: 0 auto;
+}
+
+#footer #logos li {
+	float: left;
+	margin-right: 15px;
+}
+
+
+/* ==========================================================================
+
+   Home Page
+
+   ========================================================================== */
+
+
+
+
+#quote h3 {
+background-image: url(../images/cross.gif) top left no-repeat!Important;
+}
+
+
+#quote {
+width: 95%;
+height: auto;
+background: #747084 url(../images/right-corner.gif) bottom right no-repeat;
+}
+
+
+
+
+
+.home #clients {
+	width: 100%;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: 1px solid #C7C6CE;
+}
+
+.home #caseStudiesNews  {
+	float:left;
+	width: 100%;
+	border-top: 1px solid #C7C6CE;
+	margin-top: 15px;
+	padding-top: 15px;	
+}
+
+
+#caseStudies {
+	float: left;
+	width: 45%;
+	margin-right: 10%;
+	border-bottom: none;
+}
+#caseStudiesSearch {
+	width: 45%;
+	float: left;
+	border-bottom: none;
+}
+
+#tos {
+width: 100%;
+padding-bottom: 20px;
+padding-top: 0;
+}
+
+
+#caseStudiesNews div.select-wrapper {
+	width: 95%;
+}
+
+#caseStudiesNews select.study-category-select {
+	width: 115%;
+}
+
+
+/* ==========================================================================
+
+   Three Column Layout (About / Workshop)
+
+   ========================================================================== */
+
+#internalContent.threeCol {
+	max-width: 100%;
+}
+
+.threeCol .column {
+	width: 40%;
+}
+
+.threeCol .column:first-child {
+	margin-right: 10%;
+}
+
+.threeCol .column.big-col {
+	width: 50%;
+	margin-right: 0;
+}
+
+.threeCol .column.last-col {
+	width: 100%;
+	margin-right: 0;
+	border-top: 1px solid #C7C6CE;
+	margin-top: 15px;
+	padding-top:15px;
+}
+
+.person-desc {
+	width: auto;
+}
+
+.page-template-template-workshop-php #footerLinks {
+	margin-left: 0;
+}
+
+/* ==========================================================================
+
+   Latest News / Single Post
+
+   ========================================================================== */
+
+body.single-post #wrapper {
+	margin-bottom: 0;
+}
+
+body.single-post #mainNavigationMenu, body.page-template-template-news-php #mainNavigationMenu {
+	float: left;
+	width: 45%;
+}
+
+body.single-post #CategoryNavigator, body.page-template-template-news-php #CategoryNavigator {
+	display: block;
+	float:right;
+	width: 45%;
+}
+
+.internalContent, #internalContent {
+	max-width: 100%;
+}
+
+
+#sideBar {
+	display: none;
+}
+
+.blog-pager {
+	border-top: 1px solid #C7C6CE;
+}
+
+.alignleft, .alignright {
+	margin: 0;
+}
+
+/* ==========================================================================
+
+   Case Studies / Singe Case Study
+
+   ========================================================================== */
+
+body.post-template-template-case-study-php #CategoryNavigator {
+	display: none;
+}
+
+body.post-template-template-case-study-php #mainNavigationMenu {
+	width: 99%;
+	float: none;
+}
+
+#toc {
+	display: none;
+}
+
+body.page-template-template-case-studies-home-php .threeCol .column:first-child {
+	margin-right: 10px;
+}
+
+
+body.page-template-template-case-studies-home-php #wrapper {
+	margin-bottom: 0;
+}
+
+.threeCol .case-studies-list .column {
+	width: 45%;
+	margin-bottom: 10px;
+}
+
+/* ==========================================================================
+
+   Frame Creation / Related Theory
+
+   ========================================================================== */
+
+body.page-template-template-frame-creation-php #caseStudiesNews, 
+body.page-template-template-related-theory-php #caseStudiesNews {
+	display: none;
+}
+
+body.page-template-template-frame-creation-php article.internalContent,
+body.page-template-template-related-theory-php article.internalContent {
+	max-width: 100%;
+}

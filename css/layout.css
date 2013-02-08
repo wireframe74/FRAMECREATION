@@ -1,0 +1,642 @@
+@import url(boilerplate.css);
+@import url(typography.css);
+
+@font-face {
+    font-family: 'webfontbold';
+    src: url('fonts/nevis-webfont.eot');
+    src: url('fonts/nevis-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nevis-webfont.woff') format('woff'),
+         url('fonts/nevis-webfont.ttf') format('truetype'),
+         url('fonts/nevis-webfont.svg#webfontbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'quattrocento_sansregular';
+    src: url('fonts/quattrocentosans-regular-webfont.eot');
+    src: url('fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quattrocentosans-regular-webfont.woff') format('woff'),
+         url('fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
+         url('fonts/quattrocentosans-regular-webfont.svg#quattrocento_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+background:#fff9eb;
+color: gray;
+}
+
+#wrapper {
+width:1200px;
+overflow:hidden;
+margin:0 auto 20px;
+}
+
+#footer {
+width: 1200px;
+position: relative;
+margin: 0 auto;
+}
+
+body.home #footer {
+margin: -300px auto 0;
+position: relative;
+}
+.page #footer {
+margin: 0 auto 30px;
+padding-bottom: 30px;
+height: 50px;
+}
+
+#header {
+width: 100%;
+clear: both;
+overflow: hidden;
+border-bottom: 1px solid #c7c6ce;
+padding-bottom: 5px;
+margin: 0 0 20px;
+
+}
+
+
+#rightLinks #searchform #s {
+text-indent:-9999px;
+position:absolute;
+margin-top:-35px;
+border:none;
+background:transparent;
+width:75px;
+transition-duration:400ms;
+transition-property:width, background;
+transition-timing-function:ease;
+}
+
+#rightLinks #searchform #s:focus {
+background:#747084;
+width:150px;
+color:#fff;
+text-indent:0;
+}
+
+h1#logo {
+margin:10px 0 0;
+padding:0;
+}
+
+h1#logo a {
+width:248px;
+height:100px;
+text-indent:-9999px;
+float:left;
+background:url(../images/logo.gif) top left no-repeat;
+}
+
+#rightLinks {
+width: 288px;
+float: right;
+text-align: left;
+padding: 10px 0 0 0;
+}
+
+
+.gform_wrapper {
+margin:10px 0 0 7px !important;
+padding:10%;
+}
+
+.gfield_label {
+display:none!important;
+}
+
+.gform_wrapper .top_label input.medium {
+padding-right:2px;
+width:98%!important;
+}
+
+.gform_wrapper h3.gform_title {
+font-size:17px!important;
+font-family:webfontbold;
+text-transform:uppercase;
+letter-spacing:1px!important;
+margin-bottom:3px!important;
+}
+
+.gform_wrapper .validation_error {
+color:#e04747!important;
+font-weight:400!important;
+font-size:11px!important;
+}
+
+.gform_wrapper .gform_footer {
+
+clear:both;
+text-align:right!important;
+margin-top: -50px !important;
+
+}
+
+.gform_wrapper .gfield #input_1_5 {
+width:50%!important;
+}
+
+.gform_wrapper input, .gform_wrapper textarea {
+border:1px solid #c7c6ce;
+color:#c7c6ce;
+text-transform:uppercase;
+margin:3px 0!important;
+padding:3px!important;
+}
+
+.gform_wrapper input[type=submit] {
+background:none;
+color:#747084;
+font-size:17px;
+letter-spacing:1px;
+border:none;
+cursor:pointer;
+font-family:webfontbold;
+}
+
+.gform_wrapper .gform_heading {
+margin-bottom:8px!important;
+}
+
+.gform_wrapper .top_label textarea.textarea {
+width:98%!important;
+}
+
+#content {
+width:100%;
+clear:both;
+overflow:hidden;
+position: relative;
+}
+
+#sideBar {
+float:right;
+width:288px;
+text-align:left;
+}
+
+#mainNav {
+width:216px;
+float:left;
+position:relative;
+height:895px;
+margin:0 10px 0 0;
+}
+
+#sideBar p {
+margin:3px 0 0;
+}
+
+#logos {
+width:100%;
+clear:both;
+float:left;
+margin:0;
+padding:0;
+}
+
+#logos a {
+width:100%;
+float:left;
+text-indent:-9999px;
+clear:both;
+display:block;
+margin:0 0 10px;
+}
+
+#logos li {
+list-style:none;
+}
+
+#footerLinks {
+    width: 216px;
+}
+
+#tos {
+    float: left;
+    border-top: 1px solid #C7C6CE;    
+}
+
+#uts a {
+width:118px;
+height:26px;
+background:url(../images/uts-logo.gif) top left no-repeat;
+}
+
+#tue a {
+width:125px;
+height:28px;
+background:url(../images/tue-logo.gif) top left no-repeat;
+}
+
+#hong a {
+height:34px;
+background:url(../images/hk-logo.gif) top left no-repeat;
+}
+
+#hasso a {
+width:151px;
+height:51px;
+background:url(../images/hasso-logo.gif) top left no-repeat;
+}
+
+.fcreateWrap {
+border-top:1px solid #ccc;
+padding-top:10px;
+margin-top:20px;
+float:left;
+}
+
+#quote {
+padding: 10px 5px;
+clear: right;
+height: 895px;
+width: 262px;
+float: left;
+background: #747084;
+padding: 0;
+padding: 6px 14px 6px 13px;
+position: relative;
+}
+
+
+.columnFlt {
+margin-right:10px;
+}
+
+#clients {
+padding-top:6px;
+width:365px;
+text-align:center;
+float:left;
+top:0;
+left:0;
+border-top:none;
+}
+
+#clients div.model-rollover {
+    background-color: #747084;
+    padding: 10px;
+    width : 269px;
+    position: absolute;
+    left: 910px !important;
+    z-index: 999;
+    display: none;
+}
+
+#model-archeology img {
+    width: 215px;
+    height: auto;
+}
+
+#model-paradox img {
+    width: 185px;
+    height: auto;
+}
+
+#caseStudiesNews {
+width:289px;
+float:right;
+position:relative;
+}
+
+.widget {
+border-bottom:1px solid #c7c6ce;
+padding-bottom:20px;
+}
+
+#clients a img {
+background: url(../images/dash.gif) bottom center no-repeat;
+padding-bottom: 20px;
+padding-top: 20px;
+display: block;
+clear: both;
+margin: 0 auto;
+}
+#logoWrap {
+width:100%;
+float:left;
+clear:both;
+margin:0 0 4px;
+}
+
+.portrait {
+float:left;
+height:auto;
+max-width:213px;
+margin:0 12px 0 0;
+}
+
+.landscape img,.portrait img {
+margin:0 0 10px;
+}
+
+.landscape img {
+width:100%;
+height:auto;
+max-width:365px;
+}
+
+.right {
+float:right;
+margin:0 0 12px 12px;
+}
+
+#sidebarLogoWrap {
+max-width:290px;
+margin:0 0 10px;
+}
+
+.landscape {
+height:auto;
+max-width:365px;
+float:left;
+margin:0 12px 12px 0;
+}
+
+.frameThumb {
+margin-top:5px!important;
+}
+
+#caseStudiesSearch button {
+display: none;
+border:1px solid #C7C6CE;
+color:#C7C6CE;
+background-color:#FFF9EB;
+font-weight:600;
+text-transform:uppercase;
+font-family:webfontbold;
+margin:4px 0 0;
+padding:2px 10px;
+}
+
+
+.page-id-5 .threeCol .column {
+margin: 0 10px 0 0;
+}
+
+
+.study-category-select {
+margin-bottom: 5px;
+float: left;
+}
+
+.threeCol .column.big-col {
+width:350px;
+}
+
+.threeCol .column:first-child {
+margin-left:0;
+}
+
+.threeCol .column.last-col {
+    margin-right: 0;
+}
+
+.download-list .download {
+clear:both;
+}
+
+div.post-summary {
+clear:both;
+border-bottom:1px solid #C7C6CE;
+float:left;
+padding-bottom:15px;
+margin-bottom:15px;
+}
+
+article.blog-post {
+border-bottom:1px solid #C7C6CE;
+margin-bottom:15px;
+}
+
+
+
+
+div.case-study-form {
+border-bottom:1px solid #C7C6CE;
+padding-bottom:15px;
+margin-bottom:15px;
+position:relative;
+}
+
+div.select-wrapper select {
+width: 120%;
+background: transparent;
+border: none;
+border-radius: 0;
+-webkit-appearance: none;
+font-size: 12px;
+line-height: 1;
+color: #CCC;
+font-family: webfontbold;
+text-transform: uppercase;
+padding: 4px 3px 0;
+height: 16px;
+letter-spacing: 1px;
+}
+
+
+div.select-wrapper {
+display:inline-block;
+width:70%;
+border:1px solid #ccc;
+background-color:#FFF9EB;
+background-image:url(../images/select-arrow.png);
+background-position: 98% center;
+background-repeat:no-repeat;
+overflow:hidden;
+}
+
+div.case-study-form button {
+position:absolute;
+border:1px solid #C7C6CE;
+color:#c7c6ce;
+background-color:#fff9eb;
+font-weight:600;
+text-transform:uppercase;
+font-family:webfontbold;
+margin-left:10px;
+top:0;
+padding:2px 10px;
+right: 15%;
+}
+
+#mainNavigationMenu select {
+    color: #A39DB7;
+}
+
+div.case-study-form button:active, #caseStudiesSearch form button:active {
+border:1px solid #C7C6CE;
+color:#fff;
+background-color:#747084;
+}
+
+
+#caseStudiesNews select.study-category-select {
+width: 237px;
+}
+
+#caseStudiesNews div.select-wrapper {
+width: 207px;
+}
+div.case-studies-selectlist {
+float:left;
+border-bottom:1px solid #C7C6CE;
+padding-bottom:15px;
+margin-bottom:15px;
+width:100%;
+}
+
+div.study-summary {
+margin-bottom:15px;
+}
+
+div.study-summary p {
+font-size:12px;
+margin:0;
+}
+
+.study-pager {
+width:100%;
+float:left;
+text-align:center;
+font-famiy: quattrocento_sansregular;
+font-size:12px;
+border-top :1px solid #C7C6CE;
+padding: 5px 0;
+margin-top: 15px;
+}
+
+.study-pager .ajax-pager {
+    display: none;
+}
+
+.study-pager .left {
+position:absolute;
+left:0;
+}
+
+div.person-list div.person {
+float:left;
+width:100%;
+}
+
+.person-desc {
+float:right;
+width:275px;
+}
+
+#rightLinks #searchform #searchsubmit,#rightLinks #searchform label,#mainNavigationMenu,#footerLinks2, #CategoryNavigator {
+display:none;
+}
+
+.internalContent,#internalContent {
+width:100%;
+max-width:658px;
+position:relative;
+float:left;
+}
+
+.portrait img {
+width:100%;
+}
+
+.internalContent img,#internalContent img {
+float:left;
+margin:0 12px 12px 0;
+}
+
+
+ol ol li:last-child,#internalContent div.post-summary img {
+margin-bottom:0;
+}
+
+.blog-pager .newer,.study-pager .next {
+float:right;
+}
+
+.mobile {display: none;}
+.desktop {display: block;}
+
+
+#fancybox-content {
+    font-size: 12px;
+}
+
+#fancybox-wrap #fancybox-close {
+    visibility: hidden;
+}
+
+#fancybox-wrap #fancybox-content {
+    border-color: #FFF9EB;
+}
+
+#fancybox-wrap #fancybox-outer {
+    background-color: #FFF9EB;
+}
+
+#fancybox-content .gform_wrapper {
+    margin: 0;
+    padding: 30px 50px 40px 50px;
+}
+
+#fancybox-content input, #fancybox-content textarea {
+    background-color: #FFF9EB;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.gform_wrapper .gform_footer img + img {
+    display: none;
+}
+
+
+#caseStudiesNews {
+width: 289px;
+float: right;
+position: relative;
+margin: -10px 0 0 0;
+}
+
+div.mailing_list_form {
+    max-width: 600px !important;
+    padding: 40px;
+}
+
+div.mailing_list_form input {
+    border: 1px solid #C7C6CE;
+    color: #C7C6CE;
+    margin: 3px 0 !important;
+    padding: 3px!important;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+div.mailing_list_form button {
+    color: #747084;
+    background: #FFF9EB;
+    border: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'webfontbold';
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px -15px 0 0;
+    float:right;
+}
+
+#toc {
+    float: right;
+    width: 289px;
+}

@@ -1,0 +1,480 @@
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+
+/* Font stack options
+
+	The following represents a list of font stacks, as recommended by Nathan Ford in
+	http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
+
+	I've added inverted commas around the relevant family names to ensure compatibility.
+	p = balanced for paragraphs or body copy
+	t = balanced for headlines or titles
+
+	- - - -
+
+Arial, "Helvetica Neue", Helvetica, sans-serif - p, t
+
+Baskerville, "Times New Roman", Times, serif - p
+Baskerville, "Times, Times New Roman", serif - t
+
+Cambria, Georgia, Times, "Times New Roman", serif - p, t
+"Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Consolas, "Lucida Console", Monaco, monospace - p, t
+
+"Copperplate Light", "Copperplate Gothic Light", serif - p, t
+
+"Courier New", Courier, monospace - p, t
+
+"Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif - p, t
+
+Futura, "Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Garamond, "Hoefler Text", "Times New Roman", Times, serif - p
+Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif - t
+
+Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif - p
+Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - t
+
+Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif - p
+Georgia, Times, "Times New Roman", serif - t
+
+GillSans, Calibri, Trebuchet, sans-serif - p
+GillSans, Trebuchet, Calibri, sans-serif - t
+
+"Helvetica Neue", Arial, Helvetica, sans-serif - p
+Helvetica, "Helvetica Neue", Arial, sans-serif - t
+
+Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif - p, t
+
+"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - p, t
+
+Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif - p
+Palatino, "Palatino Linotype", "Hoefler Text", Times, "Times New Roman", serif - t
+
+Tahoma, Geneva, Verdana - p
+Tahoma, Verdana, Geneva - t
+
+Times, "Times New Roman", Georgia, serif - p, t
+
+Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif - p
+Trebuchet, Tahoma, Arial, sans-serif - t
+
+Verdana, Geneva, Tahoma, sans-serif - p
+Verdana, Tahoma, Geneva, sans-serif - t
+
+*/
+
+
+
+
+
+
+p,ul,li,a,span {
+font-family:quattrocento_sansregular;
+}
+
+#rightLinks h3,#mainNav h3 {
+margin:10px 0;
+}
+
+.internalContent h1 {
+margin:0 0 12px;
+}
+
+.internalContent h2,#content h2,.h2 a {
+font-size:15px;
+margin:10px 0;
+}
+
+#content h3 {
+margin:14px 0 10px!important;
+padding:0;
+}
+
+#internalContent h1 {
+margin:0 0 7px;
+}
+
+.internalContent h3,.h3 {
+font-size:11px;
+color:gray;
+text-transform:uppercase;
+letter-spacing:1px;
+font-family:webfontbold;
+}
+
+.internalContent ul li {
+font-size:13px;
+color:gray;
+background:url(../images/bullet.gif) 0 6px no-repeat!important;
+padding-left:15px;
+list-style:none;
+margin:3px 0;
+}
+
+.internalContent ul {
+margin:16px 0;
+padding:0 0 0 20px;
+}
+
+.page-id-7 .internalContent ul {
+float:left;
+margin:0;
+}
+
+ol {
+list-style:none;
+padding-left:10px;
+text-indent:0;
+margin-left:5px;
+}
+
+ol li {
+font-size:13px;
+color:gray;
+padding-left:15px;
+list-style:none;
+margin:3px 0;
+}
+
+#rightLinks h3 a,#mainNav h3 a,#footerLinks2 h3 a,#content h3,#menu-main-navigation li a {
+text-transform:uppercase;
+font-size:11px;
+color:#747084;
+margin-bottom:20px;
+letter-spacing:1px;
+text-decoration:none;
+font-family:webfontbold;
+display:block;
+padding:0;
+}
+
+
+#menu-main-navigation li a:hover , #menu-main-navigation li.current-menu-item a{color:#ff8370; }
+
+
+.textWidget a {
+display:block;
+float:left;
+clear:both;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+width:100%;
+padding:17px 0!important;
+}
+
+#sideBar h3 {
+margin-bottom:0;
+}
+
+#footerLinks p,#footerLinks h3 {
+margin:0;
+padding:0;
+}
+
+div.model-rollover p {
+color:#FFF9EB;
+font-size:15px;
+line-height:21px;
+letter-spacing:1px;
+text-transform:uppercase;
+background-image:url(../images/cross.gif), url(../images/right-corner.gif);
+background-position:left top, right bottom;
+background-repeat:no-repeat, no-repeat;
+background-color: #747084;
+font-family:webfontbold;
+margin:0 !important;
+padding:10px 20px;
+}
+
+div.model-rollover p {
+font: inherit;
+font-size: 13px;
+line-height: 116%;
+text-transform: none;
+font-family: quattrocento_sansregular;
+letter-spacing: 0;
+text-align: left;
+}
+
+
+h2 a,.h2 a {
+color:#ff8370;
+text-transform:uppercase;
+letter-spacing:1px;
+text-decoration:none;
+font-size:15px;
+font-family:webfontbold;
+margin:0 0 5px;
+padding:0 0 5px;
+}
+
+#caseStudiesNews p {
+margin:0 0 5px;
+padding:0;
+}
+
+#footerLinks2 p,#footerLinks p {
+font-size:11px;
+}
+
+p {
+font-size:13px;
+color:gray;
+margin:6px 0;
+}
+
+.page h3 {
+margin:10px 0 0!important;
+padding:0;
+}
+
+a {
+color:#ff8370;
+text-decoration:none;
+}
+
+.home #caseStudiesSearch h1 {
+margin:10px 0 5px;
+}
+
+#rightLinks h3:hover,#rightLinks h3 a:hover,#mainNav h3 a:hover,#footerLinks2 h3 a:hover {
+color:#ff8370;
+}
+
+h1,.h1 a,h1 {
+font-size:17px;
+color:#747084;
+letter-spacing:1px;
+text-transform:uppercase;
+font-family:webfontbold;
+}
+
+h2,.h2 a,h2,.h2 {
+color:#ff8370;
+text-transform:uppercase;
+letter-spacing:1px;
+font-family:webfontbold;
+margin:0;
+padding:0;
+}
+
+#internalContent h2 {
+margin:0 0 5px;
+}
+
+
+.home #caseStudiesNews h1 {
+margin:10px 0 5px;
+}
+
+
+time {
+color:#747084;
+letter-spacing:1px;
+text-transform:uppercase;
+font-family:webfontbold;
+}
+
+.blog-pager a {
+font-famiy: quattrocento_sansregular;
+font-size:12px;
+}
+
+
+h2 a,h2 a,li.h2 a {
+color:#ff8370;
+text-transform:uppercase;
+letter-spacing:1px;
+text-decoration:none;
+font-size:15px;
+font-family:webfontbold;
+margin:0 0 5px;
+padding:0 0 5px;
+}
+
+h2 a:hover, #toc ul li.h2 a:hover { color:#747084;}
+
+
+
+#sideBar ul li h3 {
+font-size:17px;
+}
+
+#sideBar ul {
+padding:0;
+}
+
+#sideBar li a {
+color:#747084;
+font-weight:600;
+text-transform:uppercase;
+font-family:webfontbold;
+}
+
+.blog-pager .older {
+float:left;
+}
+
+
+
+.home .widget {
+padding-bottom:10px;
+}
+
+.home #clients {
+margin:0;
+padding:0;
+}
+
+.home #caseStudiesNews h2 {
+margin:6px 0 2px;
+}
+
+#footerLinks p,#footerLinks h3 {
+margin:0;
+padding:0;
+}
+
+#footerLinks h3 a {
+margin: 0;
+padding: 0;
+font-size: 11px;
+text-transform: uppercase;
+margin: 14px 0 0 0;
+font-family: webfontbold;
+color: #747084;
+letter-spacing: 1px;
+cursor:pointer;
+z-index:20000;
+}
+
+#footerLinks h3 a:hover {color:#ff8370 }
+
+#footerLinks h3 {margin-top:7px}
+
+
+#quote h3 {
+color: #FFF9EB;
+font-size: 15px;
+line-height: 21px;
+letter-spacing: 1px;
+text-transform: uppercase;
+background-image: url(../images/cross.gif), url(../images/right-corner.gif);
+background-position: left top, bottom right;
+background-repeat: no-repeat, no-repeat;
+margin: 0;
+font-family: webfontbold;
+padding: 16px 20px 20px;
+margin: 0 auto;
+margin: 0 0 0 10px;
+}
+
+h1 {
+font-size:17px;
+color:#747084;
+letter-spacing:1px;
+text-transform:uppercase;
+font-family:webfontbold;
+}
+
+h2,.h2 a {
+color:#ff8370;
+text-transform:uppercase;
+letter-spacing:1px;
+font-family:webfontbold;
+margin:0;
+padding:0;
+}
+
+#caseStudiesNews p {
+margin:0 0 5px;
+padding:0;
+}
+
+p {
+font-size:13px;
+color:gray;
+}
+
+a {
+color:#ff8370;
+text-decoration:none;
+}
+
+a:hover { color:#747084;}
+
+#rightLinks h3,#mainNav h3 {
+margin:10px 0;
+}
+
+a.active {
+text-decoration:underline;
+}
+
+#rightLinks h3 a,#mainNav h3 a,#footerLinks2 h3 a {
+text-transform:uppercase;
+font-size:11px;
+color:#747084;
+margin-bottom:20px;
+letter-spacing:1px;
+text-decoration:none;
+font-family:webfontbold;
+padding:0;
+}
+
+ol {
+counter-reset:li;
+margin-left:0;
+padding-left:0;
+}
+
+ol > li {
+position:relative;
+list-style:none;
+font-size:12px;
+margin:0 0 6px 2em;
+padding:4px 8px;
+}
+
+ol > li:before {
+content:counter(li) ". ";
+counter-increment:li;
+position:absolute;
+top:0;
+left:-1.5em;
+width:2em;
+color:#FF8370;
+font-weight:600;
+text-align:center;
+padding:4px;
+}
+
+li ol,li ul {
+margin-top:6px;
+}
+
+#internalContent.threeCol {
+margin-right:0;
+max-width:972px;
+}
+
+.threeCol .column {
+float:left;
+width:290px;
+margin:0 20px 0 0;
+}
+
+
+#toc ul li.h1 a {color:#747084; font-size:11px;}
+#toc ul li.h2 a {color:#ff8370; font-size:11px; padding-left:10px}
+#toc ul li.h3 a {
+color: #747084;
+font-size: 13px;
+padding-left: 20px;
+text-transform: none;
+font-family: quattrocento_sansregular;
+letter-spacing: 0;
+}
+
