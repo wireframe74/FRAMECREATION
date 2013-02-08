@@ -401,6 +401,7 @@ width:350px;
 
 .threeCol .column:first-child {
 margin-left:0;
+margin-right: 25px;
 }
 
 .threeCol .column.last-col {

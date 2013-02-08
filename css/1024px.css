@@ -75,6 +75,10 @@ margin-top: 0!IMPORTANT;
 	max-width: 720px;
 }
 
+.threeCol .column:first-child {
+	margin-right: 10px;
+}
+
 .threeCol .column {
 	width: 200px;
 	margin: 0 10px 0 0;
