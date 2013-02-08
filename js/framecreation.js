@@ -170,8 +170,18 @@
 		});
 
 
-		$('div.file-upload-widget').click(function () {
+		/**
+		 * Customized Upload widget for contact form.
+		 */
+		$('div.contact-form').on('click', 'div.file-upload-widget > *', function () {
 			$(this).parents('form').find('input[type=file]').trigger('click');
+			return false;
+		});
+
+		$('div.contact-form').on('change', '#field_1_5 input[type=file]', function () {
+			if (this.files[0] && this.files[0].name) {
+				$(this).parents('form').find('div.file-upload-widget input[type=text]').val(this.files[0].name);
+			}
 		});
 
 	});
