@@ -105,12 +105,12 @@ font-family:webfontbold;
 }
 
 .internalContent ul li {
-font-size:13px;
-color:gray;
-background:url(../images/bullet.gif) 0 6px no-repeat!important;
-padding-left:15px;
-list-style:none;
-margin:3px 0;
+font-size: 13px;
+color: gray;
+background: url(../images/bullet.gif) 0 6px no-repeat!important;
+padding-left: 15px;
+list-style: none;
+margin: 10px 0;
 }
 
 .internalContent ul {
@@ -220,10 +220,11 @@ font-size:11px;
 }
 
 p {
-font-size:13px;
-color:gray;
-margin:6px 0;
+font-size: 13px;
+color: gray;
+margin: 15px 0;
 }
+
 
 .page h3 {
 margin:10px 0 0!important;
@@ -271,12 +272,12 @@ margin:10px 0 5px;
 
 
 time {
-color:#747084;
-letter-spacing:1px;
-text-transform:uppercase;
-font-family:webfontbold;
+color: #747084;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-family: webfontbold;
+font-size: 11px;
 }
-
 .blog-pager a {
 font-famiy: quattrocento_sansregular;
 font-size:12px;
@@ -306,12 +307,15 @@ font-size:17px;
 padding:0;
 }
 
-#sideBar li a {
-color:#747084;
-font-weight:600;
-text-transform:uppercase;
-font-family:webfontbold;
+#sideBar li a, #sideBar li {
+color: #747084;
+font-weight: 600;
+text-transform: uppercase;
+font-family: webfontbold;
+font-size: 11px;
+letter-spacing: 1px;
 }
+
 
 .blog-pager .older {
 float:left;
@@ -431,11 +435,11 @@ padding-left:0;
 }
 
 ol > li {
-position:relative;
-list-style:none;
-font-size:12px;
-margin:0 0 6px 2em;
-padding:4px 8px;
+position: relative;
+list-style: none;
+font-size: 12px;
+margin: 0 0 10px 2em;
+padding: 4px 8px;
 }
 
 ol > li:before {

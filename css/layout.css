@@ -407,11 +407,12 @@ clear:both;
 }
 
 div.post-summary {
-clear:both;
-border-bottom:1px solid #C7C6CE;
-float:left;
-padding-bottom:15px;
-margin-bottom:15px;
+clear: both;
+border-bottom: 1px solid #C7C6CE;
+float: left;
+padding-bottom: 15px;
+margin-bottom: 12px;
+width: 100%;
 }
 
 article.blog-post {
@@ -640,3 +641,5 @@ div.mailing_list_form button {
     float: right;
     width: 289px;
 }
+
+.post-thumb {margin-top:13px}
