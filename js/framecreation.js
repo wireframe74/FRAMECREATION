@@ -104,10 +104,9 @@
 				css = {'top' :(el_offset.top -  content_offset.top), 'left': 'auto'},
 				tooltip = $('div.model-rollover[data-model='+id+']');
 
-				if (Modernizr.mq('screen and (max-width: 1023px')) {
+				if (1023 > $(window).width()) {
 					css['left'] = ($this.parent().width() / 2) - (tooltip.width() / 2) + 'px !important';
-					css['top'] = css['top'] + $this.height() + 'px';
-
+					css['top'] = (css['top'] + ($this.height() || 80)) + 'px';
 					tooltip.css('cssText', 'left:'+css.left+';top:'+css.top+';').show();
 				} else {
 					$('div.model-rollover[data-model='+id+']').css(css).show();		
@@ -170,11 +169,9 @@
 		});
 
 
-		/**
-		 * Customized Upload widget for contact form.
-		 */
 		$('div.contact-form').on('click', 'div.file-upload-widget > *', function () {
 			$(this).parents('form').find('input[type=file]').trigger('click');
+
 			return false;
 		});
 
