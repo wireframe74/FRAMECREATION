@@ -453,6 +453,14 @@ letter-spacing: 1px;
 }
 
 
+label.screen-reader-text {font-size:12px;  font-family: quattrocento_sansregular;}
+
+
+
+
+
+
+
 div.select-wrapper {
 display:inline-block;
 width:70%;
@@ -477,6 +485,36 @@ top:0;
 padding:2px 10px;
 right: 15%;
 }
+
+
+#searchform input[type="text"] {
+background: transparent;
+border: 1px solid #ccc;
+border-radius: 0;
+-webkit-appearance: none;
+font-size: 12px;
+line-height: 1;
+color: #CCC;
+font-family: quattrocento_sansregular;
+padding: 4px 3px 0;
+height: 18px;
+letter-spacing: 1px;
+}
+
+
+#searchsubmit {
+border: 1px solid #C7C6CE;
+color: #c7c6ce;
+background-color: #fff9eb;
+font-weight: 600;
+text-transform: uppercase;
+font-family: webfontbold;
+margin-left: 5px;
+top: 0;
+padding: 3px 10px 2px;
+line-height: 17px;
+}
+
 
 #mainNavigationMenu select {
     color: #A39DB7;
@@ -644,6 +682,10 @@ div#gforms_confirmation_message {
 width: 289px;
 float: right;
 position: relative;
+margin: 0 0 0 0;
+}
+
+.home #caseStudiesNews {
 margin: -10px 0 0 0;
 }
 

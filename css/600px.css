@@ -22,7 +22,7 @@
 
 #mainNavigationMenu {
 display: block;
-width: 99%;
+width: 99.5%;
 margin-bottom: 15px;
 }
 
@@ -49,15 +49,25 @@ body div#footer, body.home #footer {
 
 
 #quote h3 {
-background-image: url(../images/cross.gif) top left no-repeat!Important;
+background: none; 
+padding-left: 6%;
 }
 
+
+
+#clients div.model-rollover {
+left: 30% !important; top:10%
+}
 
 #quote {
-width: 95%;
+width: 100%;
 height: auto;
-background: #747084 url(../images/right-corner.gif) bottom right no-repeat;
+background-image: url("../images/cross2.gif"), url("../images/right-corner2.gif");
+background-position: left top, right bottom;
+background-repeat: no-repeat, no-repeat;
+padding: 0;
 }
+
 
 
 .home #clients {
@@ -232,7 +242,7 @@ body.page-template-template-related-theory-php article.internalContent {
 
 /* ==========================================================================
 
-   FancyBox Forms
+   Contact Form
 
    ========================================================================== */
 

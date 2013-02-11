@@ -4,6 +4,7 @@
 
    ========================================================================== */
 
+
 #wrapper {
 	width: 820px;
 	margin: 0 auto 20px;
@@ -121,6 +122,8 @@ div.person-list div.person {
  	margin-bottom: 10px;
  }
 
+
+
 /* ==========================================================================
 
    Latest News / Single Post
@@ -154,3 +157,28 @@ body.page-template-template-frame-creation-php article.internalContent,
 body.page-template-template-related-theory-php article.internalContent {
 	max-width: 500px;
 }
+
+#model-archeology img {
+width: 200px;
+height: auto;
+}
+
+/*.landscape {
+width: 100%;
+height: auto;
+max-width:100%
+}
+.landscape img {
+max-width:100%
+}
+
+
+.portrait {
+width: 50%;
+height: auto;
+max-width:50%
+}
+.landscape img {
+max-width:100%;
+width: 100%;
+}*/

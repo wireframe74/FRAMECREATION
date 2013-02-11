@@ -12,6 +12,13 @@
 	margin-top: 15px;
 }
 
+
+#mainNavigationMenu {
+display: block;
+width: 99.1%;
+margin-bottom: 15px;
+}
+
 #rightLinks h3 {
 	float :left;
 }
@@ -23,6 +30,29 @@
 #rightLinks h3 a {
 	margin-bottom: 0;
 }
+
+
+/* LINKS EQUIDISTANT */
+
+#containerLinks {
+  text-align: justify;
+  font-size: 0;
+  min-width: 100%;
+}
+#containerLinks div {
+  width: 33.3%;
+  display: inline-block;
+}
+#containerLinks:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+
+
+
+
 
 #rightLinks #searchform {
 	display: none;
@@ -55,12 +85,24 @@
 
 #quote h3 {
 width: 78%;
+padding-left: 10%;
 }
 
 #tos {
 	width: 100%;
 	padding-bottom: 20px;
 }
+
+#quote {
+width: 100%;
+height: auto;
+background-image: url("../images/cross2.gif"), url("../images/right-corner2.gif");
+background-position: left top, right bottom;
+background-repeat: no-repeat, no-repeat;
+padding: 0;
+}
+
+
 
 /* ==========================================================================
 
