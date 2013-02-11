@@ -101,7 +101,7 @@
 				id = $this.attr('data-model'),
 				el_offset = $this.offset(),
 				content_offset = $('#content').offset(),
-				css = {'top' :(el_offset.top -  content_offset.top), 'left': 'auto'},
+				css = {'top' :(el_offset.top -  content_offset.top), 'left': 'inherit!important'},
 				tooltip = $('div.model-rollover[data-model='+id+']');
 
 				if (1023 > $(window).width()) {
@@ -109,7 +109,7 @@
 					css['top'] = (css['top'] + ($this.height() || 80)) + 'px';
 					tooltip.css('cssText', 'left:'+css.left+';top:'+css.top+';').show();
 				} else {
-					$('div.model-rollover[data-model='+id+']').css(css).show();		
+					tooltip.attr('style', 'top:'+css.top+'px;').show();
 				}
 			
 		}, function () {
